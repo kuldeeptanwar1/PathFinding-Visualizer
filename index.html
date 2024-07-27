@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path Finder</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+</head>
+<body>
+    <div class="template">
+        <header>
+            <nav>
+                <a href="./index.html" class="logo">Pathfinding Visualizer</a>
+                <div class="btn" id="visualize">Visualize</div>
+                <ul class="nav-menu">
+                    <li><a href="#" id="clearPath">Clear Path</a></li>
+                    <li><a href="#" id="clearBoard">Clear Board</a></li>
+                    <li><a href="#" id="generateMazeBtn">Generate Maze</a></li>
+                    <li class="drop-box">
+                        <a href="#">Pixel <span class="caret"></span></a>
+                        <ul class="drop-menu">
+                            <li><a href="#">14px</a></li>
+                            <li><a href="#">16px</a></li>
+                            <li><a href="#">18px</a></li>
+                            <li><a href="#">20px</a></li>
+                            <li class="active"><a href="#">22px</a></li>
+                            <li><a href="#">24px</a></li>
+                            <li><a href="#">26px</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="drop-box">
+                        <a href="#">Algorithms <span class="caret"></span></a>
+                        <ul class="drop-menu">
+                            <li><a href="#">Dijsktra's algorithm</a></li>
+                            <li class="active"><a href="#">BFS</a></li>
+                            <li><a href="#">A* algorithm</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="guide-bar">
+                <li >
+                    <span class="icon source"></span>
+                    <span class="text">source</span>
+                </li>
+                <li >
+                    <span class="icon target"></span>
+                    <span class="text">target</span>
+                </li>
+                <li >
+                    <span class="icon unvisited"></span>
+                    <span class="text">unvisited node</span>
+                </li>
+                <li >
+                    <span class="icon visited"></span>
+                    <span class="text">visited node</span>
+                </li>
+                <li >
+                    <span class="icon wall"></span>
+                    <span class="text">wall</span>
+                </li>
+                <li >
+                    <span class="icon path"></span>
+                    <span class="text">path</span>
+                </li>
+                
+                
+            </ul>
+        </header>
+        <div id="board"></div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Kuldeep Tanwar</p>
+            <div class="social-media-links">
+                <a href="https://github.com/kuldeeptanwar1" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/github (2).svg" alt="GitHub" class="social-icon"> 
+                </a>
+                <a href="https://www.linkedin.com/in/kuldeeptanwar5048/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/icons8-linkedin.svg" alt="LinkedIn" class="social-icon">        
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./app.js"></script>
+</body>
+</html>

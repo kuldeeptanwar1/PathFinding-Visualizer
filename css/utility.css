@@ -1,0 +1,30 @@
+.caret{
+    display: block;
+    aspect-ratio: 1;
+    width: 14px;
+    background: url(../assets/caret-down.svg);
+}
+
+.wall{
+    background-color: #34495e;;
+}
+.path{
+    background-color: #fffe6a !important;
+}
+.unvisited{
+    background-color: white;
+    border: 1px solid #e4e2ed;
+}
+.visited{
+    background-color: #40cee3 !important;
+}
+.source{
+    background: url(../assets/source.svg);
+}
+.target{
+    background: url(../assets/target.svg);
+}
+.icon{
+    aspect-ratio: 1;
+    width: 20px;
+}
