@@ -203,6 +203,10 @@ footer {
         font-size: 12px;
         padding: 8px 4px;
     }
+
+    .drop-box  .drop-menu{
+        right: auto;
+    }
     
     .guide-bar{
         display:none;
