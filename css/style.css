@@ -188,4 +188,23 @@ footer {
     .btn {
         justify-self: start;
     }
+   
+}
+@media screen and (max-width: 600px){ 
+    
+    .nav-menu {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+    .nav-menu li a{
+        width: 100%;
+        font-size: 12px;
+        padding: 8px 4px;
+    }
+    
+    .guide-bar{
+        display:none;
+    }
 }
